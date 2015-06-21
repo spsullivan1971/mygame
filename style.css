@@ -1,0 +1,75 @@
+code {
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+
+body {
+  display: block;
+  margin-top: 0px;
+  margin-left: 0px;
+  height:auto;
+  color: #eee7E7;
+}
+#title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+}
+
+
+html {
+			background: url(images/titlescreen_bg.png) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+#title {
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #7b1b00;
+    border-radius: 8px;
+    background: #e83300;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e83300), to(#7b1b00));
+    background: -moz-linear-gradient(top, #e83300, #7b1b00);
+    background: linear-gradient(to bottom, #e83300, #7b1b00);
+    -webkit-box-shadow: #ff3d00 0px 0px 40px 0px;
+    -moz-box-shadow: #ff3d00 0px 0px 40px 0px;
+    box-shadow: #ff3d00 0px 0px 40px 0px;
+    text-shadow: #491000 1px 1px 1px;
+    font: italic normal normal 20px 'Amatic SC';
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid ##912000;
+    background: #ff3d00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff3d00), to(#942000));
+    background: -moz-linear-gradient(top, #ff3d00, #942000);
+    background: linear-gradient(to bottom, #ff3d00, #942000);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #7b1b00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7b1b00), to(#7b1b00));
+    background: -moz-linear-gradient(top, #7b1b00, #7b1b00);
+    background: linear-gradient(to bottom, #7b1b00, #7b1b00);
+}
+
+.footer {
+  clear: both;
+}
