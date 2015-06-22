@@ -14,7 +14,7 @@ var responses = [{
 var templates = {};
 
 
-templates.profilePage = [
+templates.gamePage = [
   '<div id="gamePageTitle">',
     '<h2><%= gameTitle %></h2>',
   '</div>',
