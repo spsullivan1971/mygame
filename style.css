@@ -20,7 +20,7 @@ body {
 }
 
 
-html {
+html  {
 			background: url(images/titlescreen_bg.png) no-repeat center center fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -38,7 +38,7 @@ html {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    padding: 12px 24px;
+    padding: 10px 10px;
     border: 1px solid #7b1b00;
     border-radius: 8px;
     background: #e83300;
@@ -49,7 +49,8 @@ html {
     -moz-box-shadow: #ff3d00 0px 0px 40px 0px;
     box-shadow: #ff3d00 0px 0px 40px 0px;
     text-shadow: #491000 1px 1px 1px;
-    font: italic normal normal 20px 'Amatic SC';
+    font: italic normal normal 20px;
+	font-family: 'Amatic SC', cursive;
     color: #ffffff;
     text-decoration: none;
 }
@@ -68,8 +69,4 @@ html {
     background: -webkit-gradient(linear, left top, left bottom, from(#7b1b00), to(#7b1b00));
     background: -moz-linear-gradient(top, #7b1b00, #7b1b00);
     background: linear-gradient(to bottom, #7b1b00, #7b1b00);
-}
-
-.footer {
-  clear: both;
 }
